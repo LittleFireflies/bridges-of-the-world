@@ -1,3 +1,4 @@
+import 'package:bridges_of_the_world/attraction_list_view.dart';
 import 'package:bridges_of_the_world/colors.dart';
 import 'package:bridges_of_the_world/header_widget.dart';
 import 'package:flutter/material.dart';
@@ -51,6 +52,7 @@ class LandingPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: const [
             HeaderWidget(),
+            AttractionListView(),
           ],
         ),
       ),
