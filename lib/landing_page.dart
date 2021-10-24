@@ -1,4 +1,5 @@
 import 'package:bridges_of_the_world/colors.dart';
+import 'package:bridges_of_the_world/header_widget.dart';
 import 'package:flutter/material.dart';
 
 class LandingPage extends StatelessWidget {
@@ -45,6 +46,12 @@ class LandingPage extends StatelessWidget {
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
           ),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: const [
+            HeaderWidget(),
+          ],
         ),
       ),
     );
