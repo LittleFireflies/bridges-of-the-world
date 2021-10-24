@@ -1,3 +1,5 @@
+import 'package:bridges_of_the_world/details_page.dart';
+import 'package:bridges_of_the_world/models/attraction_model.dart';
 import 'package:flutter/material.dart';
 
 import 'landing_page.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LandingPage(),
+      home: DetailsPage(selectedAttraction: attractions[0]),
     );
   }
 }
