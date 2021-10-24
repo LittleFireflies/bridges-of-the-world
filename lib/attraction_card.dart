@@ -3,9 +3,10 @@ import 'package:bridges_of_the_world/models/attraction_model.dart';
 import 'package:flutter/material.dart';
 
 class AttractionCard extends StatelessWidget {
-  AttractionModel attractionModel;
+  final AttractionModel attractionModel;
 
-  AttractionCard({Key? key, required this.attractionModel}) : super(key: key);
+  const AttractionCard({Key? key, required this.attractionModel})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
