@@ -18,15 +18,12 @@ class LandingPage extends StatelessWidget {
           child: Icon(Icons.airplanemode_on),
         ),
         actions: [
-          Container(
-            margin: const EdgeInsets.all(8),
-            child: IconButton(
-              icon: const Icon(
-                Icons.notifications_on_outlined,
-                color: Colors.grey,
-              ),
-              onPressed: () {},
+          IconButton(
+            icon: const Icon(
+              Icons.notifications_on_outlined,
+              color: Colors.grey,
             ),
+            onPressed: () {},
           ),
         ],
       ),
